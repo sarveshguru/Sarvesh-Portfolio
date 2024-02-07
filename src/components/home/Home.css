@@ -1,0 +1,93 @@
+.outer {
+    background-image: url(../../Assets/home-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 88.6vh;
+    width: 100vw;
+}
+
+.opa {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 88.6vh;
+}
+
+.home-box {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    padding-top: 5%;
+    color: #fff;
+    float: left;
+}
+
+.wave {
+    -webkit-animation-duration: 2.1s;
+    animation-duration: 2.1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: wave-animation;
+    animation-name: wave-animation;
+    display: inline-block;
+    -webkit-transform-origin: 70% 70%;
+    transform-origin: 70% 70%;
+}
+
+    @keyframes wave-hand {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        10% {
+            -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+        }
+
+        20% {
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+
+        30% {
+            -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+        }
+
+        40% {
+            -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+        }
+
+        50% {
+            -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+        }
+
+        60% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+    }
+
+
+    .box1 .text {
+        position: relative;
+        color: violet;
+    }
+
+    .box2 img {
+        width: 600px;
+        float: right;
+
+    }
+

@@ -1,0 +1,27 @@
+.int{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.int .interest-topic{
+    background: #4545676e;
+    color: #fff;
+    margin: 12px 12px 0 0;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+}
+
+.int .interest-topic:hover{
+    background: #454567c9;
+}

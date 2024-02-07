@@ -1,0 +1,69 @@
+.back-box {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    margin: 12px;
+    background-color: black;
+
+}
+
+.head-line-box{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.back-box .head-line-box h2 {
+    display: block;
+    max-width: max-content;
+    color: #fff;
+    margin-bottom: 0%;
+}
+
+.back-box .head-line-box .head-line{
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, white , transparent);
+}
+
+.cant-box {
+    width: cal(100% - 25px);
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.back-box .ab-box1 {
+    width: 50%;
+}
+
+.back-box .ab-box1 p {
+    color: #fff;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.back-box .ab-box2 {
+    width: 50%;
+    height:400px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.back-box .ab-box2 img {
+    box-sizing: border-box;
+    max-height: -webkit-fill-available;
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+    transform: scale(1.2);
+}
+
+
+/* elemrnt part from inspect */

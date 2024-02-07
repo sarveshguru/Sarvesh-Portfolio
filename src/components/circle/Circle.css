@@ -1,0 +1,66 @@
+.solid-box {
+    margin: 53px 12px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.menu {
+    width: 400px;
+    height: 400px;
+    /* background: rgba(0, 0, 0, 0.1); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.menu .icon-list {
+    position: absolute;
+    list-style: none;
+    transition: 0.5s;
+    transform: rotate(calc(360deg/10* var(--i)));
+    transform-origin: 200px;
+    scale: 0;
+    transition-delay: calc(0.5s * var(--i));
+}
+
+.menu .icon-list.activeted  {
+    scale: 1;
+    animation: rotate-list 10s linear infinite;
+}
+
+@keyframes rotate-list {
+    to{
+        rotate: 360deg;
+    }
+}
+
+.menu li span {
+    color: var(--clr);
+    position: relative;
+    display: flex;
+    transform: rotate(calc(360deg/-10* var(--i)));
+    width: 70px;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    font-size: 2.5em;
+}
+.menu .icon-list.activeted  span{
+    animation: rotate-img 10s linear infinite;
+}
+
+@keyframes rotate-img {
+    to{
+        rotate: calc(-360deg);
+    }
+}
+

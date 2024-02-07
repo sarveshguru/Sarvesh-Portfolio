@@ -1,0 +1,96 @@
+.normal-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.normal-cont .info-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 350px;
+    height: 80px;
+    color: white;
+    background-color: #4545676e;
+    padding: 12px;
+    margin: 12px 12px 0 0;
+    transition: 0.3s ease-in-out;
+}
+
+.normal-cont .info-box:hover {
+    background-color: #454567c9;
+}
+
+.info-logo{
+    width: 20%;
+    font-size: 2.5em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    box-sizing: border-box;
+    width: 80%;
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info .info-head{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.info .info-text{
+    margin: 0;
+    font-size: 1em;
+}
+
+.info .info-social svg{
+    margin-right: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.info .info-social .a-tag{
+    color: white;
+}
+
+.info .info-social .a-tag svg:hover{
+    transform: scale(1.8);
+    color: var(--clr);
+    text-decoration: none;
+}
+
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.form-box form input, textarea{
+    color: white;
+    width: 712px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top:12px ;
+    border: none;
+    outline: none;
+    background-color: #4545676e;
+    transition: 0.3s ease-in-out;
+}
+
+.form-box form textarea{
+    height: 200px;
+}
+
+.form-box form input:hover, textarea:hover{
+    background-color: #454567c9;
+}
