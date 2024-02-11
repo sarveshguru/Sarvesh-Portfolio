@@ -1,9 +1,9 @@
 .preload-container{
-    position: absolute;
+    position: fixed;
     margin: 0;
     background-color: #12121b;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     z-index: 10;
     transition: 0.8s ease-in-out;
     opacity: 0;
@@ -35,4 +35,11 @@
     font-family: 'Courier New';
     color: #d8dee9;
     font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px){
+    .preload-container{
+        width: 768px;
+    }
 }
