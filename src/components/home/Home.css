@@ -1,14 +1,15 @@
 .outer {
-    background-image: url(../../Assets/home-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 88.6vh;
-    width: 100vw;
+    background-image: url(../../Assets/home-bg.png);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* height: 88.6vh; */
+    height: 900px;
+    width: 100%;
 }
 
 .opa {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 88.6vh;
+    height: 900px;
 }
 
 .home-box {

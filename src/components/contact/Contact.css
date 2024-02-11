@@ -94,3 +94,9 @@
 .form-box form input:hover, textarea:hover{
     background-color: #454567c9;
 }
+
+@media (max-width: 768px){
+    .form-box form input, textarea{
+        width: 500px;
+    }
+}

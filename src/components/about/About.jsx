@@ -1,12 +1,13 @@
 import React from 'react'
+
 import Navbar from '../Navbar'
 import Circle from '../circle/Circle'
 import StarrySky from '../starrysky/StarrySky'
 import Contact from '../contact/Contact'
+import Interest from '../interest/Interest'
 
 import './About.css'
-import dp from '../../Assets/dp1.png'
-import Interest from '../interest/Interest'
+import dp from '../../Assets/dp.png'
 
 const About = () => {
     return (

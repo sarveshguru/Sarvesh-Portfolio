@@ -25,7 +25,7 @@
     transform: rotate(calc(360deg/10* var(--i)));
     transform-origin: 200px;
     scale: 0;
-    transition-delay: calc(0.5s * var(--i));
+    transition-delay: calc(0.3s * var(--i));
 }
 
 .menu .icon-list.activeted  {

@@ -1,0 +1,38 @@
+.preload-container{
+    position: absolute;
+    margin: 0;
+    background-color: #12121b;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    transition: 0.8s ease-in-out;
+    opacity: 0;
+    display: none;
+}
+
+.preload-container.show{
+    opacity: 1;
+    display: block;
+}
+
+.preload{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 250px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.preload-text{
+    font-family: 'Courier New';
+    color: #d8dee9;
+    font-size: 24px;
+}

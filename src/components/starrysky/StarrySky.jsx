@@ -17,7 +17,7 @@ const StarryNight = () => {
       stars.push(
         <circle
           key={i}
-          cx={`${x}vw`}
+          cx={`${x}%`}
           cy={`${y}vh`}
           r={size}
           className="star"

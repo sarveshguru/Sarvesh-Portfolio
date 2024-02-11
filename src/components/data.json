@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "Stack Overflow clone",
-        "image": "https://res.cloudinary.com/stackclone/image/upload/v1705854042/portfolio%20assets/stack-overflow-clone_xgr8yz.png",
+        "image":"./images/SOC.png",
         "color": "#bc662a",
         "h_color": "#ef8236",
         "desc": "It is a Stack Overflow clone where people can post queries and uncertainties. Also, it offers a community website where users may post pictures and videos.",
@@ -13,8 +13,8 @@
       },
       {
         "id": 2,
-        "title": "Travell Agency",
-        "image": "https://res.cloudinary.com/stackclone/image/upload/v1705859468/laptop_sv4pfm.png",
+        "title": "Travel Agency",
+        "image": "./images/Travel.png",
         "color": "#445517",
         "h_color": "#82a22c",
         "desc": "A website for travel agency, user(travelers) will fill the form where they want to go, and other important information and data will store in database.",
@@ -25,7 +25,7 @@
       {
         "id": 3,
         "title": "BBC-Bakery",
-        "image": "https://res.cloudinary.com/stackclone/image/upload/v1705860173/bbc_oeslf8.png",
+        "image": "./images/bbc.png",
         "color": "#633c25",
         "h_color": "#b06b43",
         "desc": "Redesigned Bhopal Bakehouse & Cafe website user interface (UI)",

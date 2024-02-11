@@ -66,4 +66,23 @@
 }
 
 
-/* elemrnt part from inspect */
+/* Media query */
+@media screen and (max-width: 1200px) {
+    .back-box {
+        padding: 15px; 
+    }
+
+    .cant-box {
+        flex-direction: column-reverse; 
+    }
+
+    .back-box .ab-box1,
+    .back-box .ab-box2 {
+        width: 100%; 
+    }
+
+    .back-box .ab-box2 img{
+        height: inherit;
+        transform: scale(1);
+    }
+}

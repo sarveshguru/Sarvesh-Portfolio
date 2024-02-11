@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ProjectCard.css'
-import data from '../../public/data/data.json'
+import data from '../data'
 import ModalCard from './ModalCard';
 
 const ProjectCard = () => {
