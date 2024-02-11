@@ -6,8 +6,12 @@ const Pretype = () => {
     <Typewriter
       options={{
         strings: [
-            "while (alive) {\
-                <br/>&emsp;&emsp;eat();\<br/>&emsp;&emsp;sleep();\<br/>&emsp;&emsp;code();\<br/>&emsp;&emsp;repeat();\<br/>};",
+          `while (alive) {
+            <br/>&emsp;&emsp;eat();
+            <br/>&emsp;&emsp;sleep();
+            <br/>&emsp;&emsp;code();
+            <br/>&emsp;&emsp;repeat();
+            <br/>};`
           ],
         autoStart: true,
         loop: true,
