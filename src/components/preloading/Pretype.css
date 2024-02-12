@@ -1,11 +1,11 @@
-.preload-container {
+/* .preload-container {
     position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     background-color: #12121b;
-    /* background-color: #1a1a1a; */
+    background-color: #1a1a1a;
     z-index: 10;
     transition: 0.8s ease-in-out;
     opacity: 0;
@@ -41,4 +41,4 @@
     .preload-container.show {
         display: none;
     }
-}
+} */
