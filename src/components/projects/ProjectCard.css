@@ -67,7 +67,7 @@
 }
 
 .card-container {
-  width: 1200px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
@@ -121,7 +121,7 @@
   filter: drop-shadow(-5px 7px 11px black);
 }
 
-@media (max-width: 768px){
+@media (max-width: 700px){
   .card-modal{
     width: 33rem;
   }
