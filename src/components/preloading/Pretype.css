@@ -4,9 +4,6 @@
     width: 100%;
     top: 0;
     left: 0;
-    /* bottom: 0; */
-    /* right: 0; */
-
     background-color: #12121b;
     /* background-color: #1a1a1a; */
     z-index: 10;
@@ -37,4 +34,13 @@
     font-family: 'Courier New', monospace;
     color: #d8dee9;
     font-size: 24px;
+}
+
+
+@media (max-width: 600px) {
+    .preload {
+        width: 90%;
+        max-width: 90%;
+        padding: 10px;
+    }
 }
