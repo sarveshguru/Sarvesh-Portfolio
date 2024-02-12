@@ -38,9 +38,7 @@
 
 
 @media (max-width: 600px) {
-    .preload {
-        width: 90%;
-        max-width: 90%;
-        padding: 10px;
+    .preload-container.show {
+        display: none;
     }
 }

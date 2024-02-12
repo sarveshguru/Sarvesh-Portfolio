@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Router>
-      {/* <Preloading loading={loading} />  */}
+      <Preloading loading={loading} /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
