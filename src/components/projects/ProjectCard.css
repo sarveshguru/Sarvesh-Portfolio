@@ -129,4 +129,10 @@
   .modal-img {
     width: 200px;
   }
+
+  .card-container{
+    flex-direction: column;
+    align-content: center;
+  }
+
 }
