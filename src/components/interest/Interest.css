@@ -25,3 +25,12 @@
 .int .interest-topic:hover{
     background: #454567c9;
 }
+
+/* media query */
+
+@media screen and (max-width: 425px){
+    .int .interest-topic{
+        width: 250px;
+        font-size: 1rem;
+    }
+}

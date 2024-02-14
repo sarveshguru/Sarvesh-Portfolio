@@ -15,7 +15,7 @@
 
 .card .textbox {
   width: 95.3875px;
-  height: 118.275px;
+  height: auto;
   font-size: 11px;
   color: #fff;
   transform: translateX(50%);
@@ -99,7 +99,8 @@
   color: #fff;
   padding: 2rem;
   text-align: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 .pro-link-card {
   display: flex;
@@ -121,8 +122,32 @@
   filter: drop-shadow(-5px 7px 11px black);
 }
 
-@media (max-width: 700px){
-  .card-modal{
+.modal-btn {
+  margin: 20px 0; 
+  background-color: #42255c;
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease-in-out, box-shadow 0.3s;
+}
+
+.modal-btn:hover{
+  background-color: #c770f0;
+  color: #12121b;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2), 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px){
+.modal-btn{
+  font-size: 0.9em;
+}
+}
+
+@media screen and (max-width: 700px) {
+  .card-modal {
     width: 33rem;
   }
 
@@ -130,9 +155,42 @@
     width: 200px;
   }
 
-  .card-container{
+  .card-container {
     flex-direction: column;
     align-content: center;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0;
+  }
+
+  .card .textbox {
+    font-size: 8px;
+  }
+
+  .card .picbox img {
+    height: 78px;
+  }
+
+  .card-modal {
+    width: 20rem;
+  }
+
+  .modal-img {
+    width: 180px;
+  }
+  
+  .card-modal h1{
+    font-size: 1.5em;
+  }
+  
+  .card-modal p{
+    font-size: 0.8em;
   }
 
 }

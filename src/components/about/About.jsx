@@ -24,7 +24,7 @@ const About = () => {
                     <div className="cant-box">
                         <div className='ab-box1'>
                             <p>
-                                Hello,<br/>
+                                <span className="bold-tag">Hello,</span><br/>
                                 I'm Sarvesh Choudhary, a Computer Application graduate fueled by enthusiasm and a passionate Front-End Developer with a profound foundation in web development. My journey is defined by academic excellence, hands-on projects, and immersive internships, shaping my zeal for crafting captivating user interfaces and seamless user experiences. My commitment extends to continuous learning, collaborative teamwork, and the unwavering pursuit of delivering impactful solutions.<br/><br/>
 
                                 In the realm of academia, I'm currently embarking on a Master of Computer Applications journey with a focus on Computer Science at LNCT University, Bhopal. Prior to this, I navigated the academic landscape at Christ College, Jagdalpur—my alma mater affiliated with Shaheed Mahendra Karma Vishwavidyalaya. The foundations of my educational journey were laid at Vidya Jyoti Hr. Sec. School in Jagdalpur.<br/><br/>

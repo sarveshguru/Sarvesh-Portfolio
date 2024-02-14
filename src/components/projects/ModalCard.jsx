@@ -15,8 +15,8 @@ function ModalCard({ project, closeModal }) {
                 <p style={{ textAlign: 'left' }}><b style={{color:"#c770f0"}}>IDE & Tech. used: </b>{project.tech_used}</p>
 
                 <div className="pro-link-card">
-                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer"><button onClick={closeModal}>Demo</button></a>
-                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer"><button onClick={closeModal}>Code </button></a>
+                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer"><button className='modal-btn' onClick={closeModal}>Demo</button></a>
+                    <a href={project.repoLink} target="_blank" rel="noopener noreferrer"><button className='modal-btn' onClick={closeModal}>Code </button></a>
 
                 </div>
             </div>

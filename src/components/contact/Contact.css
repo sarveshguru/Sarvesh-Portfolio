@@ -1,4 +1,4 @@
-.normal-cont{
+.normal-cont {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@
     background-color: #454567c9;
 }
 
-.info-logo{
+.info-logo {
     width: 20%;
     font-size: 2.5em;
     display: flex;
@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.info{
+.info {
     box-sizing: border-box;
     width: 80%;
     padding-left: 5px;
@@ -41,62 +41,106 @@
     justify-content: space-evenly;
 }
 
-.info .info-head{
+.info .info-head {
     margin: 0;
     font-size: 1.2em;
 }
 
-.info .info-text{
+.info .info-text {
     margin: 0;
     font-size: 1em;
 }
 
-.info .info-social svg{
+.info .info-social svg {
     margin-right: 16px;
     transition: 0.3s ease-in-out;
 }
 
-.info .info-social .a-tag{
+.info .info-social .a-tag {
     color: white;
 }
 
-.info .info-social .a-tag svg:hover{
+.info .info-social .a-tag svg:hover {
     transform: scale(1.8);
     color: var(--clr);
     text-decoration: none;
 }
 
 
-.form-box form{
+.form-box form {
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
 }
 
-.form-box form input, textarea{
+.form-box form input,
+textarea {
     color: white;
     width: 712px;
     height: 50px;
     box-sizing: border-box;
     padding: 12px;
-    margin-top:12px ;
+    margin-top: 12px;
     border: none;
     outline: none;
     background-color: #4545676e;
     transition: 0.3s ease-in-out;
 }
 
-.form-box form textarea{
+.form-box form textarea {
     height: 200px;
 }
 
-.form-box form input:hover, textarea:hover{
+.form-box form input:hover,
+textarea:hover {
     background-color: #454567c9;
 }
 
-@media (max-width: 768px){
-    .form-box form input, textarea{
+.submit-btn {
+    margin: 20px 0;
+    background-color: #42255c;
+    color: #fff;
+    font-size: larger;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease-in-out, box-shadow 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #c770f0;
+    color: #12121b;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2), 0px 8px 24px rgba(0, 0, 0, 0.2);
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .form-box form input,
+    textarea {
         width: 500px;
+    }
+
+    .submit-btn {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .normal-cont .info-box {
+        width: 250px;
+        margin-right: 0;
+    }
+
+    .info-logo {
+        font-size: 2em;
+    }
+
+    .form-box form input,
+    textarea {
+        width: 250px;
     }
 }

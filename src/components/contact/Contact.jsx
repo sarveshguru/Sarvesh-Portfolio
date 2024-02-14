@@ -57,7 +57,7 @@ const Contact = () => {
                     <input type="text" name="username" id="" placeholder='Full Name' autoComplete='off' required />
                     <input type="email" name="email" id="" placeholder='Email' autoComplete='off' required />
                     <textarea name="message" id="" cols="30" rows="10" placeholder='Comment or Suggestion!' required></textarea>
-                    <button type="submit" value="send" style={{ width: "130px" }}>Send</button>
+                    <button type="submit" value="send" className='submit-btn' >Send</button>
                 </form>
             </div>
         </>

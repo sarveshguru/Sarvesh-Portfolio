@@ -11,10 +11,10 @@
 .menu {
     width: 400px;
     height: 400px;
-    /* background: rgba(0, 0, 0, 0.1); */
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    box-sizing: border-box;
 }
 
 
@@ -23,7 +23,7 @@
     list-style: none;
     transition: 0.5s;
     transform: rotate(calc(360deg/10* var(--i)));
-    transform-origin: 200px;
+    transform-origin: 180px;
     scale: 0;
     transition-delay: calc(0.3s * var(--i));
 }
@@ -64,3 +64,31 @@
     }
 }
 
+/* media query */
+
+@media screen and (max-width: 435px){
+    .solid-box{
+        width: unset;
+        margin-left: 0;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .menu{
+        width: 270px;
+        height: 280px;
+    }
+
+    .menu .icon-list{
+        transform-origin: 150px;
+    }   
+
+    .menu .icon-list span{
+        width: 50px;
+        height: 50px;
+        font-size: 1.6rem;
+    }
+
+    .menu .icon-list.activeted{
+        scale: 0.8;
+    }
+}

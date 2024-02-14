@@ -1,18 +1,43 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
+import sc from '../Assets/sc_logo.png'
 
 const Navbar = () => {
+
+    const [showMenu, setShowMenu] = useState(false);
+    const navbarRef = useRef(null);
+
+    const toggleMenu = () => {
+        setShowMenu(!showMenu);
+    }
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+                setShowMenu(false);
+            }
+        };
+
+        document.addEventListener('click', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, []);
+
+
     return (
-        <nav>
+        <nav ref={navbarRef}>
             <div className="container nav-c">
                 <Link to="/" className="navbar-logo">
                     <img
-                        src="https://www.coolgenerator.com/Data/Textdesign/202401/68400a78d6b46c5aef4e31ff02a9f113.png"
+                        src={sc}
                         alt="Sarvesh Choudhary"
                     />
                 </Link>
-                <div className="navbar-p-links">
+                <div className={`navbar-p-links ${showMenu ? `show-menu` : ''}`}>
                     <div className="p-ling">
                         <NavLink to="/">HOME</NavLink>
                     </div>
@@ -25,6 +50,10 @@ const Navbar = () => {
                     <div className="p-ling">
                         <NavLink to="/resume">RESUME</NavLink>
                     </div>
+                </div>
+                
+                <div className={`menu-btn ${showMenu ? 'rotate-icon' : ''}`} onClick={toggleMenu}>
+                    <FontAwesomeIcon icon={showMenu ? faXmark : faBars} />
                 </div>
             </div>
         </nav>

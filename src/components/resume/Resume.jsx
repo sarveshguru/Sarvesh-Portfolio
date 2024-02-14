@@ -23,7 +23,7 @@ const Resume = () => {
             <Navbar />
                 <StartSky />
             <div className="dld">
-                <button onClick={downloadPdf}><FontAwesomeIcon icon={faDownload} /> Download PDF</button>
+                <button className="dld-btn" onClick={downloadPdf}><FontAwesomeIcon icon={faDownload} /> Download PDF</button>
             </div>
             <div className="container">
                 <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
@@ -31,7 +31,7 @@ const Resume = () => {
                 </Worker>
             </div>
             <div className="dld">
-                <button onClick={downloadPdf}> <FontAwesomeIcon icon={faDownload} /> Download PDF</button>
+                <button className="dld-btn" onClick={downloadPdf}> <FontAwesomeIcon icon={faDownload} /> Download PDF</button>
             </div>
         </>
     );

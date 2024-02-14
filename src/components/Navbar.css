@@ -5,6 +5,13 @@ nav {
   background-color: #300648;
   padding: 5px 0 5px 0;
   width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 25;
+  box-shadow: #c770f08c 0px 1px 8px 0px;
+
 }
 
 .nav-c {
@@ -50,4 +57,93 @@ nav {
 .p-ling a.active {
   color: #c770f0;
   border-bottom: 4px solid #c770f0;
+}
+
+.menu-btn {
+  cursor: pointer;
+  color: #fff;
+  transition: 0.25s ease-in-out;
+  display: none;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100lvw;
+    height: 45px;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .navbar-logo img {
+    width: 40px;
+    height: auto;
+    margin: 0 8px;
+  }
+
+  .p-ling {
+    margin-right: 12px;
+  }
+
+  .p-ling a {
+    font-size: 16px;
+    border-bottom: 1px #c770f0;
+  }
+
+  .p-ling a:hover,
+  .p-ling a.active {
+    border-bottom: 1px solid #c770f0;
+  }
+
+  .navbar-p-links.show-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    box-shadow: #c770f08c 0px 1px 8px 0px;
+  }
+
+  .p-ling {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 0.1px solid #ffffff1f;
+    width: calc(100% - 24px);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .navbar-p-links {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 100%;
+    background-color: #300648;
+    z-index: 50;
+  }
+
+  .menu-btn {
+    margin-right: 12px;
+    font-size: 24px;
+    display: block;
+    border-bottom: none;
+    text-decoration: none;
+    transform-origin: center;
+  }
+
+  .rotate-icon {
+    transform: rotate(180deg);
+    transition: transform 0.25s ease-in-out; 
+    color: #c770f0;
+}
+
+  .navbar-p-links.show-menu .menu-btn{
+    transform: rotate(180deg);
+    color: #c770f0;
+  }
+
 }

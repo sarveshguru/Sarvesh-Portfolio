@@ -1,15 +1,12 @@
 .outer {
     background-image: url(../../Assets/home-bg.png);
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* height: 88.6vh; */
-    height: 900px;
+    height: calc(100lvh - 75px);
     width: 100%;
 }
 
 .opa {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 900px;
+    height: calc(100lvh - 75px);
 }
 
 .home-box {
@@ -38,57 +35,76 @@
     transform-origin: 70% 70%;
 }
 
-    @keyframes wave-hand {
-        0% {
-            -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-        }
-
-        10% {
-            -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
-        }
-
-        20% {
-            -webkit-transform: rotate(-8deg);
-            transform: rotate(-8deg);
-        }
-
-        30% {
-            -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
-        }
-
-        40% {
-            -webkit-transform: rotate(-4deg);
-            transform: rotate(-4deg);
-        }
-
-        50% {
-            -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
-        }
-
-        60% {
-            -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-        }
-
-        100% {
-            -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-        }
+@keyframes wave-hand {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
-
-    .box1 .text {
-        position: relative;
-        color: violet;
+    10% {
+        -webkit-transform: rotate(14deg);
+        transform: rotate(14deg);
     }
 
-    .box2 img {
-        width: 600px;
-        float: right;
-
+    20% {
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg);
     }
 
+    30% {
+        -webkit-transform: rotate(14deg);
+        transform: rotate(14deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+
+.box1 .text {
+    position: relative;
+    color: violet;
+}
+
+.box2 img {
+    width: 600px;
+    float: right;
+
+}
+
+@media screen and (max-width: 768px) {
+    .box1 h1{
+        font-size: 22px;
+    }
+
+    .box2 img{
+        width: 350px;
+        margin-top: 15%;
+    }
+
+    .outer{
+        height:calc(100lvh - 45px);
+    }
+    
+    .opa{
+        height:calc(100lvh - 45px);
+    }
+    
+}
