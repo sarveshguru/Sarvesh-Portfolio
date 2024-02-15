@@ -9,7 +9,7 @@ const Interest = () => {
     <>
          <div className="solid-box">
             <div className="int">
-                <div className="interest-topic"><p><FontAwesomeIcon icon={faPuzzlePiece} /> Solving</p></div>
+                <div className="interest-topic"><p><FontAwesomeIcon icon={faPuzzlePiece} /> Solving Puzzle</p></div>
                 <div className="interest-topic"><p><FontAwesomeIcon icon={faTableCells} /> Sudoku</p></div>
                 <div className="interest-topic"><p><FontAwesomeIcon icon={faPaintBrush} /> Charcoal Realisiam Sketch</p></div>
                 <div className="interest-topic"><p><FontAwesomeIcon icon={faCamera} /> Photography</p></div>
