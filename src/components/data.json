@@ -7,7 +7,7 @@
         "color": "#bc662a",
         "h_color": "#ef8236",
         "desc": "It is a Stack Overflow clone where people can post queries and uncertainties. Also, it offers a community website where users may post pictures and videos.",
-        "tech_used":"Visual Studio, HTML5, CSS3, JS, React, NodeJS, MongoDb",
+        "tech_used":"React, Redux, Node.js, Express.js, MongoDB, Cloudinary, Visual Studio Code, Postman",
         "demoLink": "https://stack-overflow-sarvesh.netlify.app/",
         "repoLink": "https://github.com/sarveshguru/Stack-overflow-clone"
       },
@@ -18,12 +18,23 @@
         "color": "#445517",
         "h_color": "#82a22c",
         "desc": "A website for travel agency, user(travelers) will fill the form where they want to go, and other important information and data will store in database.",
-        "tech_used":"Visual Studio, HTML5, CSS3, JS, PHP",
-        "demoLink": "http://travel-agency158.infinityfreeapp.com/",
+        "tech_used":"HTML5, CSS3, JavaScript, PHP, MySQL, Swiper.js, Visual Studio Code, XAMPP",
+        "demoLink": "https://travel-agency158.infinityfreeapp.com/",
         "repoLink": "https://github.com/sarveshguru/travellagency"
       },
       {
         "id": 3,
+        "title": "Admin Dashboard",
+        "image": "./images/AD.png",
+        "color": "#bdeee9",
+        "h_color": "#627b79",
+        "desc": "A website for travel agency, user(travelers) will fill the form where they want to go, and other important information and data will store in database.",
+        "tech_used":"React, Node.js, Express.js, MongoDB, MUI, Nivo, Visual Studio Code, Postman",
+        "demoLink": "https://admin-dashboard-sc.netlify.app",
+        "repoLink": "https://github.com/sarveshguru/Admin-Dashboard"
+      },  
+      {
+        "id": 4,
         "title": "BBC-Bakery",
         "image": "./images/bbc.png",
         "color": "#633c25",
