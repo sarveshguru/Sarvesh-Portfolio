@@ -6,7 +6,14 @@
         "image":"./images/SOC.png",
         "color": "#bc662a",
         "h_color": "#ef8236",
-        "desc": "It is a Stack Overflow clone where people can post queries and uncertainties. Also, it offers a community website where users may post pictures and videos.",
+        "desc": [
+            "Developed a Stack Overflow clone enabling users to ask questions, provide answers, and interact through likes, votes, and friendships, enhancing user engagement with a robust question-answering platform.",
+            "Implemented secure user authentication and authorization using JWT and bcrypt, providing protected routes and secure password management.",
+            "Engineered backend with Node.js and Express.js, supporting RESTful APIs for question, answer, and post management, and integrated MongoDB for efficient data storage.",
+            "Created a responsive user interface with React and managed application state using Redux, facilitating seamless user interactions and real-time updates.",
+            "Developed features for question-and-answer management, including posting, voting, and updating interactions, with real-time updates and responsive design.",
+            "Integrated Cloudinary for image storage, handling user-uploaded images and storing links in the database for efficient media management."
+        ],
         "tech_used":"React, Redux, Node.js, Express.js, MongoDB, Cloudinary, Visual Studio Code, Postman",
         "demoLink": "https://stack-overflow-sarvesh.netlify.app/",
         "repoLink": "https://github.com/sarveshguru/Stack-overflow-clone"
@@ -17,7 +24,13 @@
         "image": "./images/Travel.png",
         "color": "#445517",
         "h_color": "#82a22c",
-        "desc": "A website for travel agency, user(travelers) will fill the form where they want to go, and other important information and data will store in database.",
+        "desc": [
+                "Developed a user-friendly website for a travel agency, allowing users to explore travel packages, learn about the agency, and book trips.",
+                "Designed a visually appealing UI using HTML and CSS, ensuring intuitive navigation and incorporating Swiper.js for dynamic sliders showcasing travel destinations.",
+                "Implemented JavaScript for interactivity and PHP for server-side scripting, handling form submissions, and integrating with a MySQL database.",
+                "Managed booking information by performing Create and Read operations, inserting booking data into the database, and displaying booking data in a tabular format.",
+                "Developed a comprehensive navigation system and client reviews section, enhancing usability, user feedback display, and agency credibility."
+            ],
         "tech_used":"HTML5, CSS3, JavaScript, PHP, MySQL, Swiper.js, Visual Studio Code, XAMPP",
         "demoLink": "https://travel-agency158.infinityfreeapp.com/",
         "repoLink": "https://github.com/sarveshguru/travellagency"
@@ -28,7 +41,14 @@
         "image": "./images/AD.png",
         "color": "#a02d2d",
         "h_color": "#ed4343",
-        "desc": "A website for travel agency, user(travelers) will fill the form where they want to go, and other important information and data will store in database.",
+        "desc": [
+                "Developed a comprehensive admin dashboard to manage products, users, transactions, and sales data, enhancing business operations through a centralized interface.",
+                "Implemented a dynamic and responsive user interface (UI) using React and @mui/material, integrating advanced data grid functionalities with @mui/x-data-grid for efficient data handling.",
+                "Created real-time data visualizations with @nivo/pie and @nivo/line, presenting key metrics such as sales trends, user demographics, and performance insights, and integrated geographical data mapping to visualize user distributions based on country codes.",
+                "Engineered the backend with Node.js and Express.js, developing RESTful APIs and utilizing MongoDB for scalable data storage and efficient data retrieval.",
+                "Enhanced data management by implementing server-side pagination, sorting, and searching, handling extensive datasets of transactions and user activities.",
+                "Ensured security by employing helmet for securing HTTP headers."
+            ],
         "tech_used":"React, Node.js, Express.js, MongoDB, MUI, Nivo, Visual Studio Code, Postman",
         "demoLink": "https://admin-dashboard-sc.netlify.app",
         "repoLink": "https://github.com/sarveshguru/Admin-Dashboard"
