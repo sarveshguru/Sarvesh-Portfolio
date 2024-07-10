@@ -16,7 +16,7 @@ const Contact = () => {
                             <div className="info-logo"><FontAwesomeIcon icon={faLocationDot} /></div>
                             <div className="info">
                                 <h4 className='info-head'>Location</h4>
-                                <p className='info-text'>Bhopal, Madhya Pradesh, Bharat</p>
+                                <p className='info-text'>Bangalore ( Silicon Valley of India ), Karnataka</p>
                             </div>
                         </div>
                         <div className="info-box">
